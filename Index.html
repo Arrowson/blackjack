@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Poker </title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="Cards/CardBack.jpg" id="dealerFirstCard">
+            </div>
+            <div class="col-md-3">
+                <img src="Cards/CardBack.jpg">
+            </div>
+            <div class="col-md-3">
+                <h3>
+                    Dealer
+                </h3>
+                <div class="row">
+                    <div class ="col-md-3">
+                        Money: <p>500</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class= "col-md-4"> 
+                <h4>Current Pot:</h4> 
+                <p>500</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="Cards/CardBack.jpg" id="playerFirstCard">
+            </div>
+            <div class="col-md-3">
+                <img src="Cards/CardBack.jpg" id="playerSecondCard">
+            </div>
+            <div class="col-md-3">
+                <h3>
+                    Player
+                </h3>
+                <div class="row">
+                    <div class ="col-md-3">
+                        Money: <p>500</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h3> Current Count: </h3>
+                <h3 id="playerCount"> </h3>
+                <button class="btn btn-danger">HIT</button>
+                <p></p>
+                <button class="btn btn-primary">STAND</button>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
